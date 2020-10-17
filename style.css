@@ -1,0 +1,228 @@
+body {
+  font-family: "Spartan";
+  background-color: white;
+  line-height: 1.5;
+  background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: left top, right bottom;
+}
+
+h1 {
+  padding-right: 10rem;
+}
+
+h2 {
+  font-size: 0.8rem;
+}
+
+h3 {
+  font-size: 0.75rem;
+}
+
+/* TEXT AND COLORS */
+.purple-text {
+  color: #502050;
+}
+
+.grey-text {
+  color: #937A92;
+}
+
+.pink-text {
+  color: #EE68A4;
+}
+
+.white-text {
+  color: white;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.semibold-text {
+  font-weight: 500;
+}
+
+.regular-text {
+  font-weight: 400;
+}
+
+/* RATED SECTION */
+.rated-text {
+  display: inline-flex;
+  font-size: 0.8rem;
+}
+
+.stars {
+    display: inline-flex;
+    margin: 0 1rem 0 0;
+}
+
+.self-card {
+  display: inline-block;
+  justify-content: center;
+}
+
+.big-text p{
+  padding: 0 5rem 0 0;
+}
+
+.guru-card {
+  margin-top: 1rem;
+  margin-left: 4rem;
+}
+
+.best-card {
+  margin-top: 1rem;
+  margin-left: 8rem;
+}
+
+
+.rated-card {
+  width: 80%;
+  padding: 1rem;
+  background-color: #F7F2F7;
+  border: 0;
+}
+
+.star-image {
+  margin: 0 0.2rem;
+}
+
+.comments {
+  margin-top: 3rem;
+}
+
+.container-fluid {
+  width: 80%;
+  margin-top: 5rem;
+}
+
+.inside-text {
+  color: white;
+  line-height: 2;
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+}
+
+.card-deck .card {
+  background-color: #502050;
+  padding: 2rem;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.circle-images{
+  border-radius: 100%;
+  width: 80%;
+}
+
+.irene-card {
+  position: relative;
+  top: 1rem;
+}
+
+.anne-card {
+  position: relative;
+  top: 2rem;
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 3rem;
+  padding: 3rem;
+  color: #502050;
+}
+.attribution a {
+  color: #EE68A4;
+}
+
+.colton-card:hover {
+  background-color:#6A285B;
+}
+
+.irene-card:hover {
+  background-color:#6A285B;
+}
+
+.anne-card:hover {
+  background-color:#6A285B;
+}
+
+.big-text h1:hover {
+  color: #863173;
+}
+
+.col2 .card:hover {
+  transform: scale(1.1);
+}
+
+
+
+@media (max-width: 992px)
+{
+  .big-text {
+    text-align: center;
+    padding: 0;
+    width: 100%;
+  }
+
+  .big-text p {
+    text-align: center;
+    padding: 0;
+  }
+
+  .big-text h1 {
+    padding: 1rem 0;
+  }
+
+  .rated-card {
+    width: 100%;
+  }
+
+  .guru-card {
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+
+  .best-card {
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+
+  .col1 {
+    padding: 0 0.5rem;
+  }
+
+  .col2 {
+    margin-top: 2rem;
+  }
+
+  .irene-card {
+    position: relative;
+    top: 0;
+  }
+
+  .anne-card {
+    position: relative;
+    top: 0;
+  }
+
+}
+
+@media (max-width: 830px) {
+  .card-body{
+    padding: 0;
+  }
+}
+
+
+
+@media (max-width: 576px) {
+  .card-body{
+    padding: 1.5rem;
+  }
+}
